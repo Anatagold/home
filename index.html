@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnataGold</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="lang-ru">
+
+    <header class="site-header">
+        <div class="container">
+            <div class="lang-switch">
+                <button onclick="setLanguage('ru')" id="btn-ru" class="active">RU</button>
+                <button onclick="setLanguage('en')" id="btn-en">EN</button>
+            </div>
+            
+            <div class="logo-wrapper">
+                <img src="logo.png" alt="AnataGold Logo" class="main-logo-img">
+                
+                <div class="estd-wrap">
+                    <span class="estd">ESTD</span>
+                    <span class="date">2025</span>
+                </div>
+                <h1 class="logo-text">ANATAGOLD</h1>
+            </div>
+
+            <div class="header-divider"></div>
+            <p class="tagline ru">Надежность. Качество. Комплексный подход.</p>
+            <p class="tagline en">Reliability. Quality. Integrated Approach.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section class="company-description">
+            <h2 class="ru">О компании</h2>
+            <h2 class="en">About Company</h2>
+            <p class="ru">
+                <strong>AnataGold</strong> — это динамично развивающаяся <strong>многопрофильная компания</strong>, 
+                объединяющая экспертизу в ключевых секторах экономики. Мы предлагаем <strong>высококачественную продукцию</strong> 
+                и профессиональный сервис для вашего бизнеса. Наша цель — долгосрочное и взаимовыгодное сотрудничество.
+            </p>
+            <p class="en">
+                <strong>AnataGold</strong> is a dynamically developing <strong>diversified company</strong> 
+                combining expertise in key economic sectors. We offer <strong>high-quality products</strong> 
+                and professional services for your business. Our goal is long-term and mutually beneficial cooperation.
+            </p>
+        </section>
+
+        <section class="catalog">
+            <h2 class="ru" style="color: #fff; margin-bottom: 30px; text-shadow: 0 0 15px rgba(185,158,113,0.3);">Каталог продукции и услуг</h2>
+            <h2 class="en" style="color: #fff; margin-bottom: 30px; text-shadow: 0 0 15px rgba(185,158,113,0.3);">Product & Service Catalog</h2>
+
+            <div class="catalog-grid">
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=600&auto=format&fit=crop" class="category-image">
+                    <div class="category-content">
+                        <h3 class="ru">1. Сельское хозяйство</h3>
+                        <h3 class="en">1. Agriculture</h3>
+                        <ul class="product-list ru">
+                            <li><strong>Комбикорма</strong>, премиксы, добавки</li>
+                            <li>Витамины, минералы</li>
+                            <li><strong>Белковое сырье</strong>, концентраты</li>
+                            <li>Шрот, жмых, дрожжи</li>
+                            <li>Рыбная мука, мясо-костная мука</li>
+                            <li><strong>Консерванты</strong></li>
+                            <li>Удобрения, защита растений, семена</li>
+                        </ul>
+                        <ul class="product-list en">
+                            <li><strong>Compound feed</strong>, premixes, additives</li>
+                            <li>Vitamins, minerals</li>
+                            <li><strong>Protein raw materials</strong>, concentrates</li>
+                            <li>Meal, cake, yeast</li>
+                            <li>Fish meal, meat and bone meal</li>
+                            <li><strong>Preservatives</strong></li>
+                            <li>Fertilizers, plant protection, seeds</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=600&auto=format&fit=crop" class="category-image">
+                    <div class="category-content">
+                        <h3 class="ru">2. Медицинские услуги</h3>
+                        <h3 class="en">2. Medical Services</h3>
+                        <p class="ru">Широкий спектр <strong>профессиональных медицинских услуг</strong>, современная диагностика и консультации экспертов.</p>
+                        <p class="en">A wide range of <strong>professional medical services</strong>, modern diagnostics and expert consultations.</p>
+                    </div>
+                </div>
+
+                <div class="category-card">
+                    <img src="https://images.pexels.com/photos/6235011/pexels-photo-6235011.jpeg?auto=compress&cs=tinysrgb&w=600" class="category-image">
+                    <div class="category-content">
+                        <h3 class="ru">3. Ветеринарные услуги</h3>
+                        <h3 class="en">3. Veterinary Services</h3>
+                        <p class="ru">Комплексная <strong>забота о здоровье животных</strong>: лечение, профилактика и ветеринарный контроль.</p>
+                        <p class="en">Comprehensive <strong>animal health care</strong>: treatment, prevention and veterinary control.</p>
+                    </div>
+                </div>
+
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=600&auto=format&fit=crop" class="category-image">
+                    <div class="category-content">
+                        <h3 class="ru">4. Товары народного потребления</h3>
+                        <h3 class="en">4. Consumer Goods</h3>
+                        <p class="ru">Ассортимент <strong>высококачественных товаров</strong> для повседневных нужд и домашнего обихода.</p>
+                        <p class="en">An assortment of <strong>quality goods</strong> for everyday needs and household use.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p><strong>&copy; 2026 AnataGold.</strong> Все права защищены.</p>
+            <p>Email: <strong>info@anatagold.ru</strong></p>
+        </div>
+    </footer>
+
+    <script>
+        function setLanguage(lang) {
+            document.body.className = 'lang-' + lang;
+            document.getElementById('btn-ru').classList.toggle('active', lang === 'ru');
+            document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+        }
+    </script>
+</body>
+</html>
